@@ -1,7 +1,8 @@
 # Budget-App
-# JS File
 
-```BUDGET CONTROLLER
+```
+JS File
+BUDGET CONTROLLER
 var budgetController = (function() {
     
     var Expense = function(id, description, value) {
