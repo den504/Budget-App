@@ -1,6 +1,6 @@
 # Budget-App
 
-//app.js
+# //app.js
 // BUDGET CONTROLLER
 var budgetController = (function() {
     
