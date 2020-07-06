@@ -1,7 +1,7 @@
 # Budget-App
 # JS File
 
-BUDGET CONTROLLER
+`BUDGET CONTROLLER
 var budgetController = (function() {
     
     var Expense = function(id, description, value) {
@@ -442,11 +442,11 @@ var controller = (function(budgetCtrl, UICtrl) {
 })(budgetController, UIController);
 
 
-controller.init();
+controller.init();`
 
 
-
-//index.html
+#HTML File
+`//index.html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -522,9 +522,10 @@ controller.init();
         
         <script src="app.js"></script>
     </body>
-</html>
+</html>`
 
-//style.css
+#CSS File
+`//style.css
 * {
     margin: 0;
     padding: 0;
@@ -549,10 +550,6 @@ body {
 .right { float: right; }
 .red { color: #FF5049 !important; }
 .red-focus:focus { border: 1px solid #FF5049 !important; }
-
-/**********************************************
-*** TOP PART
-**********************************************/
 
 .top {
     height: 40vh;
@@ -630,12 +627,6 @@ body {
     border-radius: 3px;
 }
 
-
-/**********************************************
-*** BOTTOM PART
-**********************************************/
-
-/***** FORM *****/
 .add {
     padding: 14px;
     border-bottom: 1px solid #e7e7e7;
@@ -698,7 +689,6 @@ body {
 
 .add__btn:focus { outline: none; }
 
-/***** LISTS *****/
 .container {
     width: 1000px;
     margin: 60px auto;
@@ -797,5 +787,5 @@ h2 {
 }
 
 .unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
-.unpaid:hover .item__description { font-weight: 900; }
+.unpaid:hover .item__description { font-weight: 900; }`
 
